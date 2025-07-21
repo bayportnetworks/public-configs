@@ -23,8 +23,8 @@
 	<Option Name="UseSoftwareCenterApp" Enabled="False" />	<!-- The app in Windows doing the actual notification - can't be both SoftwareCenter and Powershell -->
 	<Option Name="UsePowershellApp" Enabled="False" />	<!-- The app in Windows doing the actual notification - can't be both SoftwareCenter and Powershell -->
 	<Option Name="CustomAudio" Enabled="False" />	<!-- Enable or disable a custom speak scenario, where the text will be read out aloud -->
-	<Option Name="LogoImageName" Value="https://bpnpfsp1.blob.core.windows.net/bpcon/Windows%20Toast%20Notification/Images/ORIC.png?sp=r&st=2025-07-14T23:20:52Z&se=2026-07-14T07:35:52Z&spr=https&sv=2024-11-04&sr=b&sig=UdGk%2F%2Fh9Qydmr3g4e%2BEMEvMI1sB6NZu5%2F0xtrGC7aOY%3D" />  <!-- File name of the image shown as logo in the toast notoification  -->
-	<Option Name="HeroImageName" Value="https://bpnpfsp1.blob.core.windows.net/bpcon/Windows%20Toast%20Notification/Images/ToastHeroImageSecurity.jpg?sp=r&st=2025-07-14T23:22:37Z&se=2026-07-15T07:37:37Z&spr=https&sv=2024-11-04&sr=b&sig=OqH9LALmNC%2FzKYI%2BHwF0GxqaqrTLm%2BL79rfLkzJha%2FM%3D" /> <!-- File name of the image shown in the top of the toast notification -->	
+	<Option Name="LogoImageName" Value="https://github.com/bayportnetworks/public-configs/blob/c8879178b4383d972049d6586fb659743b1a70b4/Intune/ToastNotificationScript2.3.0/Images/Bayport%20medium%20white.jpg" />  <!-- File name of the image shown as logo in the toast notoification  -->
+	<Option Name="HeroImageName" Value="https://github.com/bayportnetworks/public-configs/blob/c8879178b4383d972049d6586fb659743b1a70b4/Intune/ToastNotificationScript2.3.0/Images/ToastHeroImageSecurity.jpg" /> <!-- File name of the image shown in the top of the toast notification -->	
 	<Option Name="ActionButton1" Enabled="True" />	<!-- Enables or disables the action button. -->
 	<Option Name="ActionButton2" Enabled="False" />	<!-- Enables or disables the action button. -->
 	<Option Name="DismissButton" Enabled="True" />	<!-- Enables or disables the dismiss button. -->
