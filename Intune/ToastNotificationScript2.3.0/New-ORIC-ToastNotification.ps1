@@ -145,7 +145,7 @@
 [CmdletBinding()]
 param(
     [Parameter(HelpMessage='Path to XML Configuration File')]
-    [string]$Config="https://bpnpfsp1.blob.core.windows.net/bpcon/Windows%20Toast%20Notification/ORIC-config-toast-rebootpending.xml?sp=r&st=2025-07-14T23:52:01Z&se=2026-07-15T08:07:01Z&spr=https&sv=2024-11-04&sr=b&sig=%2BdBDkhn054NKGbyaCyyL21feCs%2BMYPRXnmlAup%2F8IoY%3D"
+    [string]$Config="https://github.com/bayportnetworks/public-configs/blob/fda803143c5d58ee65eaf85683e554fdebc51aad/Intune/ToastNotificationScript2.3.0/Custom-config-toast-rebootpending.xml"
 )
 
 #region Functions
